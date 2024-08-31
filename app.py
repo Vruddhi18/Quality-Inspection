@@ -12,8 +12,8 @@ from streamlit_option_menu import option_menu
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
 
-train_dir = "C:\Users\acer\Downloads\Quality_inspection_ai_project\dataset\casting_data\casting_data\test"
-test_dir = "C:\Users\acer\Downloads\Quality_inspection_ai_project\dataset\casting_data\casting_data\train"
+train_dir = r'C:\Users\acer\Downloads\Quality_inspection_ai_project\dataset\casting_data\casting_data\test'
+test_dir = r'C:\Users\acer\Downloads\Quality_inspection_ai_project\dataset\casting_data\casting_data\train'
 
 train_datagen = ImageDataGenerator(rescale=1./255,
                              rotation_range=20,
